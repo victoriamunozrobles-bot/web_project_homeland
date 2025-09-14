@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Inter";
+  src: url(vendor/fonts/Inter.ttc) formtat("TrueType");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "InterBold";
+  src: url(vendor/fonts/InterVariable.ttc) formtat("TrueType");
+  font-weight: bold;
+}
