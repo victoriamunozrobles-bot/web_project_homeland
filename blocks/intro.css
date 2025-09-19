@@ -5,10 +5,11 @@
   color: #ffffff;
   max-width: 70%;
   max-height: 80vh;
+  margin-left: 10%;
 }
 
 .intro__texts {
-  align-items: center;
+  align-items: right;
 }
 .intro__title {
   font-family: "InterBold", sans-serif;
@@ -44,6 +45,7 @@
   .intro {
     max-width: 93%;
     max-height: 74%;
+    margin-left: 7%;
   }
   .intro__title {
     font-size: 45px;

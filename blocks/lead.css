@@ -21,17 +21,18 @@
   font-size: 30px;
   line-height: 36px;
   color: #ffffff;
-  max-width: 60%;
+  max-width: 70%;
   max-height: 10%;
   text-align: center;
-  margin-bottom: 5%;
+  margin-bottom: 0 auto;
 }
 
 .lead__image {
+  display: block;
+  margin: 0 auto 7%;
   max-width: 80%;
-  max-height: 50%;
+  height: auto;
   opacity: 1;
-  margin-bottom: 7%;
 }
 
 @media screen and (max-width: 1024px) {
