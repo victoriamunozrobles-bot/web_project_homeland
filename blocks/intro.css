@@ -45,7 +45,7 @@
   .intro {
     max-width: 93%;
     max-height: 74%;
-    margin-left: 7%;
+    margin-left: auto;
   }
   .intro__title {
     font-size: 45px;

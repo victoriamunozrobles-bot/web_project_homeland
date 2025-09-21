@@ -63,9 +63,7 @@
   height: 100%;
   width: 100%;
 }
-.place__image:nth-of-type {
-  height: 75%;
-}
+
 .place__image:hover {
   background: #00000080;
   opacity: 50%;
@@ -124,4 +122,7 @@
   line-height: 163%;
   color: #fff;
   margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
 }

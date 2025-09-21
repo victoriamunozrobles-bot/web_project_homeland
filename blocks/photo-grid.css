@@ -1,13 +1,26 @@
 .photo-grid {
   display: grid;
-  max-width: 92%;
+  width: 92%;
   margin: auto;
   margin-top: 10%;
-  grid-template-columns: repeat(4, 25%);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(2, 50%);
-  row-gap: 1.5%;
+  row-gap: 2%;
+  column-gap: 2%;
 }
 
 .photo-grid__item {
-  max-width: 1fr;
+  width: 1fr;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 49%);
+    grid-template-rows: repeat(4, auto);
+    column-gap: 2%;
+    row-gap: 2%;
+  }
+  .photo-grid__item {
+    width: 100%;
+  }
 }
