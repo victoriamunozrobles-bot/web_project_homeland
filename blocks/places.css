@@ -125,4 +125,7 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .place__title {
+    width: 100%;
+  }
 }
