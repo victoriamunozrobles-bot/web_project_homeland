@@ -45,7 +45,7 @@
     grid-template-columns: repeat(1, 98%);
     grid-template-rows: repeat(auto-fit, minmax(0, 1fr));
     column-gap: 2%;
-    row-gap: 2%;
+    row-gap: 10px;
     justify-content: center;
   }
 }
