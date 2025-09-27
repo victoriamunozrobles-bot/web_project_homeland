@@ -57,6 +57,7 @@
   grid-area: image;
   height: 100%;
   width: 100%;
+  box-shadow: 5px 5px 10px 0px #00000040;
 }
 
 .place__image:hover {
